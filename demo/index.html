@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>material-gradient demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="../gradient-classes.html">
+
+  <style is="custom-style" include="demo-pages-shared-styles">
+    .flex-grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      width: 30%;
+    }
+
+    div {
+      flex: 1 100%;
+      min-height: 200px;
+      background-color: lightgray;
+      margin: 10px;
+    }
+
+    div p {
+      padding: 10px;
+      margin: 0;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, .9);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<section class="flex-grid">
+  <div class="gradient-v-red50-red100"></div>
+  <div class="gradient-v-red100-red200"></div>
+  <div class="gradient-v-red200-red300"></div>
+</section>
+<script src="demo.js"></script>
+</body>
+</html>
