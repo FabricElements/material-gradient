@@ -1,7 +1,7 @@
 {
-  "name": "material-gradient",
+  "name": "skin-gradient",
   "description": "Gradient styles and classes using material design colors",
-  "main": "material-gradient.html",
+  "main": "skin-gradient.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
     "paper-styles": "PolymerElements/paper-styles#^1.1.5"

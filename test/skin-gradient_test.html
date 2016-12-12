@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>material-gradient test</title>
+    <title>skin-gradient test</title>
 
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../material-gradient.html">
+    <link rel="import" href="../skin-gradient.html">
   </head>
   <body>
     <test-fixture id="basic">
       <template>
-        <material-gradient></material-gradient>
+        <skin-gradient></skin-gradient>
       </template>
     </test-fixture>
 
     <script>
-      suite('material-gradient', function() {
+      suite('skin-gradient', function() {
         test('instantiating the element works', function() {
           var element = fixture('basic');
-          assert.equal(element.is, 'material-gradient');
+          assert.equal(element.is, 'skin-gradient');
         });
       });
     </script>
